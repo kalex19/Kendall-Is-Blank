@@ -51,9 +51,13 @@ button:hover {
 
 .main-section {
   background-image: linear-gradient(to left, rgba(138, 133, 133, 0), rgba(0,0,0,.5));
-  height: 500px;
+  height: auto;
   border: 3px solid white;
   margin: 3%;
+}
+.gift{
+  font-size: .5em;
+  color: purple;
 }
 
 .main-section p {

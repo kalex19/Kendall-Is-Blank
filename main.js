@@ -8,19 +8,19 @@ var a = $('.a')
 var l = $('.l')
 var ll = $('.ll')
 var url = $('.gift')
+var array = []
 
 button.on('click', selectWord)
 
 function selectWord(){
   var adj = $('.adjInput').val()  
-  var array = []
 if(adj == "kind"){
-  array.push(1)
+  array.push("1")
   k.append(`<p>${adj}</p>`)
   note.text("You are so thoughtful & kind 🌸 ")
   $('.adjInput').val("");
 } else if(adj == "empowered"){
-  array.push(2)
+  array.push("2")
   e.append(`<p>${adj}</p>`)
   note.text("You are so thoughtful & kind 🌸 ")
   $('.adjInput').val("");
@@ -54,8 +54,7 @@ if(adj == "kind"){
   $('.adjInput').val("");
 }
 
-console.log(array)
 if(array.length === 7){
-  url.text('https://starbucks.cashstar.com/recipient-experience/redemption/ZjY1MDA2MzIyZTBhOWYwZjkyZ/b6a27c8d1c9547dba91d95e77cc6f1aa/?continue=true')
+  url.text("https://starbucks.cashstar.com/recipient-experience/redemption/ZjY1MDA2MzIyZTBhOWYwZjkyZ/b6a27c8d1c9547dba91d95e77cc6f1aa/?continue=true")
 }
 }
