@@ -15,12 +15,12 @@ button.on('click', selectWord)
 function selectWord(){
   var adj = $('.adjInput').val()  
 if(adj == "kind"){
-  array.push("1")
+  array.push(1)
   k.append(`<p>${adj}</p>`)
   note.text("You are so thoughtful & kind 🌸 ")
   $('.adjInput').val("");
 } else if(adj == "empowered"){
-  array.push("2")
+  array.push(2)
   e.append(`<p>${adj}</p>`)
   note.text("You are so thoughtful & kind 🌸 ")
   $('.adjInput').val("");
