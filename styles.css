@@ -1,0 +1,79 @@
+body {
+  background-image: url('./assets/aleksey-ovcharov-JuzCeDTXUF4-unsplash.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: purple 8px dotted;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  margin: 3% 0;
+}
+
+input {
+  height: 60px;
+  width: 12%;
+  margin: 3%;
+  padding-left: 1%;
+  font-size: 1.5em;
+  font-family: cursive;
+  outline: none;
+  border: 3px solid purple;
+}
+
+button {
+  height: 70px;
+  width: 10%;
+  margin: 3%;
+  font-size: 1.5em;
+  font-family: cursive;
+  outline: none;
+  border: 3px solid purple;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+  border: 3px solid white;
+}
+
+.main-section {
+  background-image: linear-gradient(to left, rgba(138, 133, 133, 0), rgba(0,0,0,.5));
+  height: 500px;
+  border: 3px solid white;
+  margin: 3%;
+}
+
+.main-section p {
+  font-size: 1.2em;
+  font-family: fantasy;
+  color: white;
+  margin: 3%;
+}
+
+#message {
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  margin: 3%;
+}
+
+#message a {
+  font-size: 1em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
+
+
